@@ -15,8 +15,7 @@ import "../CSS/Login.css";
 
 import Group from "../imagens/Group.png"
 
-import {  FaLock } from "react-icons/fa"
-import { EmailIcon } from "@chakra-ui/icons";
+
 import { FcGoogle  } from "react-icons/fc";
 
 import { Button } from "@chakra-ui/button";
