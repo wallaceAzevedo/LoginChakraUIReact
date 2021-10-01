@@ -10,12 +10,6 @@ import {
 } from '@chakra-ui/react';
 
 import { Image } from "@chakra-ui/image";
-
-import "../CSS/Login.css";
-
-import Group from "../imagens/Group.png"
-
-
 import { FcGoogle  } from "react-icons/fc";
 
 import { Button } from "@chakra-ui/button";
