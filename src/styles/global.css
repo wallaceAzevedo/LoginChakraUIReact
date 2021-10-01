@@ -1,0 +1,37 @@
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto";
+}
+*:focus {
+  box-shadow: none !important;
+}
+
+::-webkit-scrollbar {
+  background-color: #dfdfdf;
+  width: 5px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 17px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fdc921;
+  border-radius: 17px;
+  height: 10px;
+  overflow: auto;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #ff95d9, #feae81, #fdc921);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: black;
+}
